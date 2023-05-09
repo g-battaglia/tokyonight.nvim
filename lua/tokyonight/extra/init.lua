@@ -63,7 +63,7 @@ end
 
 function M.setup()
   M.docs()
-  local config = require("tokyonight.config")
+  local config = require("tokyonightowl.config")
   vim.o.background = "dark"
 
   -- map of style to style name
@@ -75,13 +75,13 @@ function M.setup()
   }
 
   for extra, info in pairs(M.extras) do
-    package.loaded["tokyonight.extra." .. extra] = nil
-    local plugin = require("tokyonight.extra." .. extra)
+    package.loaded["tokyonightowl.extra." .. extra] = nil
+    local plugin = require("tokyonightowl.extra." .. extra)
     for style, style_name in pairs(styles) do
       config.setup({ style = style })
-      local colors = require("tokyonight.colors").setup({ transform = true })
-      local fname = extra .. "/tokyonight_" .. style .. "." .. info.ext
-      colors["_upstream_url"] = "https://github.com/folke/tokyonight.nvim/raw/main/extras/" .. fname
+      local colors = require("tokyonightowl.colors").setup({ transform = true })
+      local fname = extra .. "/tokyonightowl_" .. style .. "." .. info.ext
+      colors["_upstream_url"] = "https://github.com/folke/tokyonightowl.nvim/raw/main/extras/" .. fname
       colors["_style_name"] = "Tokyo Night" .. style_name
       write(plugin.generate(colors), fname)
     end

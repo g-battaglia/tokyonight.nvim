@@ -1,50 +1,50 @@
-*tokyonight.nvim.txt*       For Neovim >= 0.8.0       Last change: 2023 May 07
+*tokyonightowl.nvim.txt*       For Neovim >= 0.8.0       Last change: 2023 May 07
 
 ==============================================================================
-Table of Contents                          *tokyonight.nvim-table-of-contents*
+Table of Contents                          *tokyonightowl.nvim-table-of-contents*
 
-1. Tokyo Night                                   |tokyonight.nvim-tokyo-night|
-  - Storm                                  |tokyonight.nvim-tokyo-night-storm|
-  - Night                                  |tokyonight.nvim-tokyo-night-night|
-  - Moon                                    |tokyonight.nvim-tokyo-night-moon|
-  - Day                                      |tokyonight.nvim-tokyo-night-day|
-  - Features                            |tokyonight.nvim-tokyo-night-features|
-  - Requirements                    |tokyonight.nvim-tokyo-night-requirements|
-  - Installation                    |tokyonight.nvim-tokyo-night-installation|
-  - Usage                                  |tokyonight.nvim-tokyo-night-usage|
-  - Configuration                  |tokyonight.nvim-tokyo-night-configuration|
-  - Overriding Colors & Highlight Groups|tokyonight.nvim-tokyo-night-overriding-colors-&-highlight-groups|
-  - Extras                                |tokyonight.nvim-tokyo-night-extras|
-  - Contributing                    |tokyonight.nvim-tokyo-night-contributing|
+1. Tokyo Night                                   |tokyonightowl.nvim-tokyo-night|
+  - Storm                                  |tokyonightowl.nvim-tokyo-night-storm|
+  - Night                                  |tokyonightowl.nvim-tokyo-night-night|
+  - Moon                                    |tokyonightowl.nvim-tokyo-night-moon|
+  - Day                                      |tokyonightowl.nvim-tokyo-night-day|
+  - Features                            |tokyonightowl.nvim-tokyo-night-features|
+  - Requirements                    |tokyonightowl.nvim-tokyo-night-requirements|
+  - Installation                    |tokyonightowl.nvim-tokyo-night-installation|
+  - Usage                                  |tokyonightowl.nvim-tokyo-night-usage|
+  - Configuration                  |tokyonightowl.nvim-tokyo-night-configuration|
+  - Overriding Colors & Highlight Groups|tokyonightowl.nvim-tokyo-night-overriding-colors-&-highlight-groups|
+  - Extras                                |tokyonightowl.nvim-tokyo-night-extras|
+  - Contributing                    |tokyonightowl.nvim-tokyo-night-contributing|
 
 ==============================================================================
-1. Tokyo Night                                   *tokyonight.nvim-tokyo-night*
+1. Tokyo Night                                   *tokyonightowl.nvim-tokyo-night*
 
 A dark and light Neovim theme written in Lua ported from the Visual Studio Code
-TokyoNight <https://github.com/enkia/tokyo-night-vscode-theme> theme. Includes
+tokyonightowl <https://github.com/enkia/tokyo-night-vscode-theme> theme. Includes
 extra themes for Kitty, Alacritty, iTerm and Fish.
 
 
-STORM                                      *tokyonight.nvim-tokyo-night-storm*
+STORM                                      *tokyonightowl.nvim-tokyo-night-storm*
 
 
-NIGHT                                      *tokyonight.nvim-tokyo-night-night*
+NIGHT                                      *tokyonightowl.nvim-tokyo-night-night*
 
 
-MOON                                        *tokyonight.nvim-tokyo-night-moon*
+MOON                                        *tokyonightowl.nvim-tokyo-night-moon*
 
 
-DAY                                          *tokyonight.nvim-tokyo-night-day*
+DAY                                          *tokyonightowl.nvim-tokyo-night-day*
 
 
-FEATURES                                *tokyonight.nvim-tokyo-night-features*
+FEATURES                                *tokyonightowl.nvim-tokyo-night-features*
 
 
 - supports the latest Neovim 0.9.0 features
 - terminal colors
 - darker background for sidebar-like windows
 - supports all major plugins
-- TokyoNight |tokyonight.nvim-extras| for a lot of other apps
+- tokyonightowl |tokyonightowl.nvim-extras| for a lot of other apps
 
 
 EXTRAS ~
@@ -69,85 +69,85 @@ EXTRAS ~
 - Xresources <https://wiki.archlinux.org/title/X_resources> (xresources <extras/xresources>)
 
 
-REQUIREMENTS                        *tokyonight.nvim-tokyo-night-requirements*
+REQUIREMENTS                        *tokyonightowl.nvim-tokyo-night-requirements*
 
 
 - Neovim >= 0.6.0
 
 
-INSTALLATION                        *tokyonight.nvim-tokyo-night-installation*
+INSTALLATION                        *tokyonightowl.nvim-tokyo-night-installation*
 
 Install the theme with your preferred package manager:
 
 vim-plug <https://github.com/junegunn/vim-plug>
 
 >vim
-    Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+    Plug 'folke/tokyonightowl.nvim', { 'branch': 'main' }
 <
 
 packer <https://github.com/wbthomason/packer.nvim>
 
 >lua
-    use 'folke/tokyonight.nvim'
+    use 'folke/tokyonightowl.nvim'
 <
 
 
-USAGE                                      *tokyonight.nvim-tokyo-night-usage*
+USAGE                                      *tokyonightowl.nvim-tokyo-night-usage*
 
 Enable the colorscheme:
 
 >vim
     " Vim Script
-    colorscheme tokyonight
+    colorscheme tokyonightowl
     
     " There are also colorschemes for the different styles
-    colorscheme tokyonight-night
-    colorscheme tokyonight-storm
-    colorscheme tokyonight-day
-    colorscheme tokyonight-moon
+    colorscheme tokyonightowl-night
+    colorscheme tokyonightowl-storm
+    colorscheme tokyonightowl-day
+    colorscheme tokyonightowl-moon
 <
 
 >lua
     -- Lua
-    vim.cmd[[colorscheme tokyonight]]
+    vim.cmd[[colorscheme tokyonightowl]]
 <
 
-To enable the `tokyonight` theme for `Barbecue`
+To enable the `tokyonightowl` theme for `Barbecue`
 
 >lua
     require('barbecue').setup {
       -- ... your barbecue config
-      theme = 'tokyonight',
+      theme = 'tokyonightowl',
       -- ... your barbecue config
     }
 <
 
-Toenable the `TokyoNight` theme for `Lualine`, simply specify it in your
+Toenable the `tokyonightowl` theme for `Lualine`, simply specify it in your
 lualine settings:
 
 >lua
     require('lualine').setup {
       options = {
         -- ... your lualine config
-        theme = 'tokyonight'
+        theme = 'tokyonightowl'
         -- ... your lualine config
       }
     }
 <
 
-To enable the `tokyonight` colorscheme for `Lightline`
+To enable the `tokyonightowl` colorscheme for `Lightline`
 
 >vim
     " Vim Script
-    let g:lightline = {'colorscheme': 'tokyonight'}
+    let g:lightline = {'colorscheme': 'tokyonightowl'}
 <
 
 
-CONFIGURATION                      *tokyonight.nvim-tokyo-night-configuration*
+CONFIGURATION                      *tokyonightowl.nvim-tokyo-night-configuration*
 
 
   configuration needs to be set **BEFORE** loading the color scheme with
-  `colorscheme tokyonight`
+  `colorscheme tokyonightowl`
 The theme comes in four styles, `storm`, `moon`, a darker variant `night` and
 `day`.
 
@@ -157,10 +157,10 @@ The **day** style will be used if:
 - `{ style = "day"}` was passed to `setup(options)`
 - or `vim.o.background = "light"`
 
-TokyoNight will use the default options, unless you call `setup`.
+tokyonightowl will use the default options, unless you call `setup`.
 
 >lua
-    require("tokyonight").setup({
+    require("tokyonightowl").setup({
       -- your configuration comes here
       -- or leave it empty to use the default settings
       style = "storm", -- The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
@@ -198,7 +198,7 @@ TokyoNight will use the default options, unless you call `setup`.
 <
 
 
-OVERRIDING COLORS & HIGHLIGHT GROUPS*tokyonight.nvim-tokyo-night-overriding-colors-&-highlight-groups*
+OVERRIDING COLORS & HIGHLIGHT GROUPS*tokyonightowl.nvim-tokyo-night-overriding-colors-&-highlight-groups*
 
 How the highlight groups are calculated:
 
@@ -206,13 +206,13 @@ How the highlight groups are calculated:
 1. the **colors** for the style are calculated based on your config2. `config.on_colors(colors)` is ran, where you can override the colors3. the **colors** are then used to generate the highlight groups4. `config.on_highlights(highlights, colors)` is ran, where you can overide the highlight groups
 
 Please refer to default values for `colors` and `highlights` for the storm
-<extras/lua/tokyonight_storm.lua>, moon <extras/lua/tokyonight_moon.lua>, night
-<extras/lua/tokyonight_night.lua>, day <extras/lua/tokyonight_day.lua>
+<extras/lua/tokyonightowl_storm.lua>, moon <extras/lua/tokyonightowl_moon.lua>, night
+<extras/lua/tokyonightowl_night.lua>, day <extras/lua/tokyonightowl_day.lua>
 
 Example for changing some settings and colors
 
 >lua
-    require("tokyonight").setup({
+    require("tokyonightowl").setup({
       -- use the night style
       style = "night",
       -- disable italic for functions
@@ -232,7 +232,7 @@ Example to make Telescope borderless
 <https://github.com/nvim-telescope/telescope.nvim/wiki/Gallery#borderless>
 
 >lua
-    require("tokyonight").setup({
+    require("tokyonightowl").setup({
       on_highlights = function(hl, c)
         local prompt = "2d3149"
         hl.TelescopeNormal = {
@@ -280,7 +280,7 @@ config file:
 <
 
 
-EXTRAS                                    *tokyonight.nvim-tokyo-night-extras*
+EXTRAS                                    *tokyonightowl.nvim-tokyo-night-extras*
 
 Extra color configs for **Kitty**, **Alacritty**, **Fish**, **WezTerm**,
 **iTerm** and **foot** can be found in extras <extras/>. To use them, refer to
@@ -290,15 +290,15 @@ You can easily use the color palette for other plugins inside your Neovim
 config:
 
 >lua
-    local colors = require("tokyonight.colors").setup() -- pass in any of the config options as explained above
-    local util = require("tokyonight.util")
+    local colors = require("tokyonightowl.colors").setup() -- pass in any of the config options as explained above
+    local util = require("tokyonightowl.util")
     
     aplugin.background = colors.bg_dark
     aplugin.my_error = util.lighten(colors.red1, 0.3) -- number between 0 and 1. 0 results in white, 1 results in red1
 <
 
 
-CONTRIBUTING                        *tokyonight.nvim-tokyo-night-contributing*
+CONTRIBUTING                        *tokyonightowl.nvim-tokyo-night-contributing*
 
 Pull requests are welcome. For the `extras`, we use a simple template system
 that can be used to generate themes for the different styles.
@@ -306,15 +306,15 @@ that can be used to generate themes for the different styles.
 How to add a new extra template:
 
 
-1. create a file like `lua/tokyonight/extra/cool-app.lua`
+1. create a file like `lua/tokyonightowl/extra/cool-app.lua`
 
 2. add the name and output file extension to the `extras` table in
-`lua/tokyonight/extra/init.lua`
+`lua/tokyonightowl/extra/init.lua`
 
 3. run the shell script below to generate / update extra themes
 
 >sh
-    $ nvim --headless "+lua require('tokyonight.extra').setup()" +qa
+    $ nvim --headless "+lua require('tokyonightowl.extra').setup()" +qa
 <
 
 4. check the newly created themes under `extra/`, but **DO NOT** commit them! They
@@ -323,7 +323,7 @@ will be build automatically by the ci
 
 
 ==============================================================================
-2. Links                                               *tokyonight.nvim-links*
+2. Links                                               *tokyonightowl.nvim-links*
 
 1. *image*: https://user-images.githubusercontent.com/292349/115295095-3a9e5080-a10e-11eb-9aed-6054488c46ce.png
 2. *image*: https://user-images.githubusercontent.com/292349/115295327-7afdce80-a10e-11eb-89b3-2591262bf95a.png

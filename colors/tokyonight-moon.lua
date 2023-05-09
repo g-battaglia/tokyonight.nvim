@@ -1,1 +1,1 @@
-require("tokyonight")._load("moon")
+require("tokyonightowl")._load("moon")

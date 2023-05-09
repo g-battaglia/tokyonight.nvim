@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+local util = require("tokyonightowl.util")
 
 local M = {}
 
@@ -9,9 +9,9 @@ function M.generate(colors)
 end
 
 -- vim.schedule(function()
---   local config = require("tokyonight.config")
+--   local config = require("tokyonightowl.config")
 --   config.setup({ style = "storm" })
---   local colors = require("tokyonight.colors").setup()
+--   local colors = require("tokyonightowl.colors").setup()
 --
 --   local lookup = {}
 --
@@ -44,7 +44,7 @@ M.template = [[
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>TokyoNight</string>
+	<string>tokyonightowl</string>
 	<key>semanticClass</key>
 	<string>enki.theme.tokyo</string>
 	<key>settings</key>

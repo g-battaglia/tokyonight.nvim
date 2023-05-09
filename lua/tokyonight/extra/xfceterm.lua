@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+local util = require("tokyonightowl.util")
 
 local M = {}
 
@@ -7,7 +7,7 @@ function M.generate(colors)
   local xfceterm = util.template(
     [[
 [Scheme]
-Name=TokyoNight Colors
+Name=tokyonightowl Colors
 ColorBackground=${bg}
 ColorForeground=${fg}
 

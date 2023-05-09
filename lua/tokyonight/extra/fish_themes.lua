@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+local util = require("tokyonightowl.util")
 
 local M = {}
 
@@ -13,7 +13,7 @@ function M.generate(colors)
 
   local fish = util.template(
     [[
-    # TokyoNight
+    # tokyonightowl
 
     # Syntax Highlighting Colors
     fish_color_normal ${fg}

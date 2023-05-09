@@ -1,4 +1,4 @@
-    # TokyoNight Color Palette
+    # tokyonightowl Color Palette
     set -l foreground 3760bf
     set -l selection b6bfe2
     set -l comment 848cb5
