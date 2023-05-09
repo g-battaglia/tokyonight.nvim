@@ -1,9 +1,9 @@
 [colors]
 foreground = "#c8d3f5"
-background = "#222436"
+background = "#011627"
 cursor_bg = "#c8d3f5"
 cursor_border = "#c8d3f5"
-cursor_fg = "#222436"
+cursor_fg = "#011627"
 selection_bg = "#2d3f76"
 selection_fg = "#c8d3f5"
 
@@ -16,7 +16,7 @@ background = "#191b28"
 
 [colors.tab_bar.active_tab]
 fg_color = "#82aaff"
-bg_color = "#222436"
+bg_color = "#011627"
 
 [colors.tab_bar.inactive_tab]
 bg_color = "#1e2030"

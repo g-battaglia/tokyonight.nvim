@@ -1,5 +1,5 @@
 local colors = {
-  bg = "#222436",
+  bg = "#011627",
   bg_dark = "#1e2030",
   bg_float = "#1e2030",
   bg_highlight = "#2f334d",
@@ -202,7 +202,7 @@ local highlights = {
   },
   ["@text.danger"] = {
     bg = "#c53b53",
-    fg = "#222436"
+    fg = "#011627"
   },
   ["@text.diff.add"] = {
     link = "DiffAdd"
@@ -225,7 +225,7 @@ local highlights = {
   },
   ["@text.warning"] = {
     bg = "#ffc777",
-    fg = "#222436"
+    fg = "#011627"
   },
   ["@type.builtin"] = {
     fg = "#589ed7"
@@ -298,39 +298,39 @@ local highlights = {
     fg = "#ffc777"
   },
   BufferCurrent = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   BufferCurrentERROR = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c53b53"
   },
   BufferCurrentHINT = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#4fd6be"
   },
   BufferCurrentINFO = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#0db9d7"
   },
   BufferCurrentIndex = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#0db9d7"
   },
   BufferCurrentMod = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#ffc777"
   },
   BufferCurrentSign = {
-    bg = "#222436",
-    fg = "#222436"
+    bg = "#011627",
+    fg = "#011627"
   },
   BufferCurrentTarget = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#ff757f"
   },
   BufferCurrentWARN = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#ffc777"
   },
   BufferInactive = {
@@ -359,7 +359,7 @@ local highlights = {
   },
   BufferInactiveSign = {
     bg = "#272a3f",
-    fg = "#222436"
+    fg = "#011627"
   },
   BufferInactiveTarget = {
     bg = "#2f334d",
@@ -564,14 +564,14 @@ local highlights = {
   },
   Cursor = {
     bg = "#c8d3f5",
-    fg = "#222436"
+    fg = "#011627"
   },
   CursorColumn = {
     bg = "#2f334d"
   },
   CursorIM = {
     bg = "#c8d3f5",
-    fg = "#222436"
+    fg = "#011627"
   },
   CursorLine = {
     bg = "#2f334d"
@@ -673,7 +673,7 @@ local highlights = {
     fg = "#82aaff"
   },
   EndOfBuffer = {
-    fg = "#222436"
+    fg = "#011627"
   },
   Error = {
     fg = "#c53b53"
@@ -689,7 +689,7 @@ local highlights = {
     fg = "#589ed7"
   },
   FoldColumn = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#636da6"
   },
   Folded = {
@@ -971,7 +971,7 @@ local highlights = {
     }
   },
   MiniStarterItem = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   MiniStarterItemBullet = {
@@ -1385,7 +1385,7 @@ local highlights = {
     fg = "#545c7e"
   },
   Normal = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   NormalFloat = {
@@ -1393,7 +1393,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   NormalNC = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   NormalSB = {
@@ -1401,11 +1401,11 @@ local highlights = {
     fg = "#828bb8"
   },
   NotifyDEBUGBody = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   NotifyDEBUGBorder = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#363a58"
   },
   NotifyDEBUGIcon = {
@@ -1415,11 +1415,11 @@ local highlights = {
     fg = "#636da6"
   },
   NotifyERRORBody = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   NotifyERRORBorder = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#532b3f"
   },
   NotifyERRORIcon = {
@@ -1429,11 +1429,11 @@ local highlights = {
     fg = "#c53b53"
   },
   NotifyINFOBody = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   NotifyINFOBorder = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#1c5166"
   },
   NotifyINFOIcon = {
@@ -1443,11 +1443,11 @@ local highlights = {
     fg = "#0db9d7"
   },
   NotifyTRACEBody = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   NotifyTRACEBorder = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#634b6c"
   },
   NotifyTRACEIcon = {
@@ -1457,11 +1457,11 @@ local highlights = {
     fg = "#fca7ea"
   },
   NotifyWARNBody = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#c8d3f5"
   },
   NotifyWARNBorder = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#64554a"
   },
   NotifyWARNIcon = {
@@ -1604,7 +1604,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   SignColumn = {
-    bg = "#222436",
+    bg = "#011627",
     fg = "#3b4261"
   },
   SignColumnSB = {
@@ -1714,7 +1714,7 @@ local highlights = {
   },
   Todo = {
     bg = "#ffc777",
-    fg = "#222436"
+    fg = "#011627"
   },
   TreesitterContext = {
     bg = "#363c58"
@@ -1845,7 +1845,7 @@ local highlights = {
   },
   lCursor = {
     bg = "#c8d3f5",
-    fg = "#222436"
+    fg = "#011627"
   },
   markdownCode = {
     fg = "#4fd6be"
